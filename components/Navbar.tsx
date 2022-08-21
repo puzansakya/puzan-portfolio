@@ -7,7 +7,7 @@ import { Link } from "@chakra-ui/react";
 
 const Navbar = () => {
   return (
-    <Flex p={4} justifyContent="flex-end" position="fixed" top={0} w="full">
+    <Flex p={4} justifyContent="flex-end"  w="full">
       <HStack spacing={4}>
         <NextLink href={"/"} passHref>
           <Link>
@@ -19,9 +19,9 @@ const Navbar = () => {
             <GlichText text="About Me" />
           </Link>
         </NextLink>
-        <NextLink href={"/blog"} passHref>
+        <NextLink href={"/articles"} passHref>
           <Link>
-            <GlichText text="Blog" />
+            <GlichText text="Articles" />
           </Link>
         </NextLink>
       </HStack>

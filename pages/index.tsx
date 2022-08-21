@@ -6,15 +6,15 @@ import Navbar from "../components/Navbar";
 
 import NextLink from "next/link";
 
-import { Link } from "@chakra-ui/react";
+import { Flex, Link } from "@chakra-ui/react";
 
 const Home: NextPage = () => {
   const authorName = "Puzan Sakya";
 
   return (
-    <>
-      <Navbar />
+    <Flex direction="column" flex={1}  h="full">
 
+      <Navbar />
       <div className={styles.container}>
         <div className={styles.box}>
           <div className={styles.title}>
@@ -25,7 +25,7 @@ const Home: NextPage = () => {
             </h1>
           </div>
 
-          <GlichText text="Full Stack Developer" />
+          <GlichText  text="Full Stack Developer" />
 
           <div className={styles.aboutMe}>
             <div className={styles.block}></div>
@@ -38,16 +38,16 @@ const Home: NextPage = () => {
 
           <div className={styles.blog}>
             <div className={styles.block}></div>
-            <NextLink href="/blog" passHref>
+            <NextLink href="/articles" passHref>
               <Link>
-                <p>Blog</p>
+                <p>Articles</p>
               </Link>
             </NextLink>
           </div>
         </div>
       </div>
 
-    </>
+    </Flex>
   );
 };
 

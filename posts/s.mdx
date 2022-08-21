@@ -1,20 +1,23 @@
 ---
 title: Nginx installation
-date: 'August 4, 2021'
-description: Learn how to create and use functions
-thumbnailUrl: '/javascript-functions-thumbnail.jpeg'
-tags: ['functions', 'javascript']
+tags:
+  - bash
+  - unix
+  - loadbalancer
+date: 2022-08-21
+excerpt: Instructions to install nexing loadbalancer in freshly installed linux/unix distro.
 ---
 
 # Nginx installation
+
 
 ```bash
 sudo apt update
 sudo apt install nginx
 ```
+<br />
 
 Adjusting the Firewall
-
 ```bash
 sudo ufw app list
 
@@ -45,11 +48,15 @@ systemctl status nginx
 
 ```
 
+<br />
+
 You can access the default Nginx landing page to confirm that the software is running properly by navigating to your server’s IP address. If you do not know your server’s IP address, you can get it a few different ways.
 
 ```bash
 ip addr show eth0 | grep inet | awk '{ print $2; }' | sed 's/\/.*$//'
 ```
+
+<br />
 
 You will get back a few lines. You can try each in your web browser to see if they work.
 
@@ -59,45 +66,58 @@ An alternative is typing this, which should give you your public IP address as s
 curl -4 icanhazip.com
 ```
 
+<br />
+
 # **Managing the Nginx Process**
 
+<br />
+
 Now that you have your web server up and running, let’s review some basic management commands.
+
+<br />
 
 To stop your web server, type:
 
 ```bash
 sudo systemctl stop nginx
 ```
+<br />
 
 To start the web server when it is stopped, type:
 
 ```bash
 sudo systemctl start nginx
 ```
+<br />
 
 To stop and then start the service again, type:
 
 ```bash
 sudo systemctl restart nginx
 ```
+<br />
 
 If you are simply making configuration changes, Nginx can often reload without dropping connections. To do this, type:
 
 ```bash
 sudo systemctl reload nginx
 ```
+<br />
 
 By default, Nginx is configured to start automatically when the server boots. If this is not what you want, you can disable this behavior by typing:
 
 ```bash
 sudo systemctl disable nginx
 ```
+<br />
 
 To re-enable the service to start up at boot, you can type:
 
 ```bash
 sudo systemctl enable nginx
 ```
+
+<br />
 
 Sample default config file for  hosting multiple node apps
 
