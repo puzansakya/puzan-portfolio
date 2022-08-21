@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://puzansakya.com.np
+
+# Sitemaps
+Sitemap: https://puzansakya.com.np/sitemap.xml
