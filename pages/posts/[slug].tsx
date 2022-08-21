@@ -8,6 +8,7 @@ import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import rehypeHighlight from "rehype-highlight";
 import rehypeSlug from "rehype-slug";
 import { getPostFromSlug, getSlugs, PostMeta } from "../../@services/api.service";
+import Meta from "../../components/Meta";
 import Navbar from "../../components/Navbar";
 import YouTube from "../../components/YouTube";
 
@@ -19,9 +20,7 @@ interface MDXPost {
 export default function PostPage({ post }: { post: MDXPost }) {
   return (
     <>
-      <Head>
-        <title>{post.meta.title}</title>
-      </Head>
+      <Meta title={post.meta.title} />
 
       <Navbar />
 

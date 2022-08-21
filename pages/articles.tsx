@@ -10,6 +10,7 @@ import BlogLink from "../components/BlogLink";
 import Navbar from "../components/Navbar";
 import Articles from "../components/Articles";
 import { getAllPosts } from "../@services/api.service";
+import Meta from "../components/Meta";
 
 export const getStaticProps = async () => {
   const posts = getAllPosts()
@@ -25,9 +26,8 @@ const Blog = ({ posts }: InferGetStaticPropsType<typeof getStaticProps>) => {
 
   return (
     <>
-      <Head>
-        <title>Articles</title>
-      </Head>
+
+      <Meta title="Articles" />
 
       <Navbar />
 

@@ -3,15 +3,14 @@ import type { GetStaticPaths, GetStaticProps } from "next";
 import Head from "next/head";
 import { getAllPosts, PostMeta } from "../../@services/api.service";
 import Articles from "../../components/Articles";
+import Meta from "../../components/Meta";
 import Navbar from "../../components/Navbar";
 
 export default function TagPage({ slug, posts }: { slug: string; posts: PostMeta[] }) {
   const title = `Tag: ${slug}`;
   return (
     <>
-      <Head>
-        <title>{title}</title>
-      </Head>
+     <Meta title={title} />
       <Navbar />
 
       <pre>{JSON.stringify(slug)}</pre>
