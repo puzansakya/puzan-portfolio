@@ -13,7 +13,6 @@ export default function TagPage({ slug, posts }: { slug: string; posts: PostMeta
      <Meta title={title} />
       <Navbar />
 
-      <pre>{JSON.stringify(slug)}</pre>
       <Heading mb={4} fontSize={"3xl"}>
         Tag: {slug}
       </Heading>

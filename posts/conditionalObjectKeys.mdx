@@ -1,0 +1,21 @@
+---
+title: Conditional Object Keys
+tags:
+  - javascript
+  - JS Object
+  - fundamentals
+date: 2022-12-01
+excerpt: Add key conditionally with spread operator.
+---
+
+```js
+const age = 18;
+let personAbove = {
+	name: "John",
+	...(age > 20 && { age }),
+};
+let personBelow = {
+	name: "John",
+	...(age < 20 && { message: "less than 20" }),
+};
+```
