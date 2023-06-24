@@ -1,9 +1,11 @@
 import { Box, Container, Flex, Link } from "@chakra-ui/react";
-import Head from "next/head";
-import { title } from "process";
 import GlichText from "../components/GlichText";
 import Meta from "../components/Meta";
 import Navbar from "../components/Navbar";
+
+export function getStaticProps() {
+  return { props: { msg: "hello world" } };
+}
 
 const About = () => {
   return (
@@ -21,15 +23,29 @@ const About = () => {
             h="100vh"
             alignItems="center"
           >
-            <Link
-              href="puzan_shakya_resume.pdf"
-              // download
-
-              target="_blank"
-              rel="noopener noreferrer"
+            <Flex
+              direction="column"
+              gap={3}
             >
-              <GlichText text="Download Resume" />
-            </Link>
+              <Link
+                href="puzan_shakya_resume.pdf"
+                // download
+
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <GlichText text="Download Resume" />
+              </Link>
+
+              {/* <Button
+                colorScheme="teal"
+                onClick={async () => {
+                  await generatePDF();
+                }}
+              >
+                Generate Pdf
+              </Button> */}
+            </Flex>
 
             {/* <a
               href="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
@@ -46,3 +62,15 @@ const About = () => {
 };
 
 export default About;
+
+/*
+
+flowchart TB
+    a[start]
+    b[place sample pdf in assets]
+    c[add link tag to download pdf]
+    z[end]
+
+    a --> b --> c --> z
+
+*/
