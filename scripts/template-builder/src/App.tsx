@@ -138,7 +138,7 @@ export const Template = () => {
               <div>
                 <p>Rigo Technologies | Senior software Engineer</p>
                 <p className="italic">Date: 2021 June&ndash; present</p>
-                <p className="italic">Description: Worked on tech-stack including java and angular JS.</p>
+                <p className="italic">Description: Working on projects like human resource (HR) solutions and Enterprise Resource Planning (ERP) and accounting softwares.</p>
               </div>
               <div>
                 <p>Smart Data Solution | Senior Full-stack Engineer</p>
