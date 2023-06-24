@@ -3,7 +3,7 @@
 import { Box, keyframes, Text } from "@chakra-ui/react";
 import merge from "lodash/merge";
 
-interface GlichTextProps {
+interface GlichTextProps extends Record<string, any> {
   text?: string;
   wrapperProps?: any;
   childProps?: any;
@@ -11,7 +11,7 @@ interface GlichTextProps {
 }
 
 const GlichText = (props: GlichTextProps) => {
-  const { text, wrapperProps, childProps, duration } = props;
+  const { text, wrapperProps, childProps, duration, ...rest } = props;
 
   const stack = keyframes`
     0% {
@@ -115,14 +115,26 @@ const GlichText = (props: GlichTextProps) => {
   const mergedWrapperProps = merge(commonWrapperProps, wrapperProps);
 
   return (
-    <Box sx={mergedWrapperProps}>
-      <Text as="span" sx={SpanZero}>
+    <Box
+      sx={mergedWrapperProps}
+      {...rest}
+    >
+      <Text
+        as="span"
+        sx={SpanZero}
+      >
         {text}
       </Text>
-      <Text as="span" sx={SpanOne}>
+      <Text
+        as="span"
+        sx={SpanOne}
+      >
         {text}
       </Text>
-      <Text as="span" sx={SpanTwo}>
+      <Text
+        as="span"
+        sx={SpanTwo}
+      >
         {text}
       </Text>
     </Box>
@@ -133,7 +145,7 @@ GlichText.defaultProps = {
   text: "",
   wrapperProps: {},
   childProps: {},
-  duration: '2s',
+  duration: "2s",
 };
 
 export default GlichText;
