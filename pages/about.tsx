@@ -28,7 +28,7 @@ const About = () => {
               gap={3}
             >
               <Link
-                href="puzan_shakya_resume_.pdf"
+                href="puzan_shakya_resume_1.pdf"
                 // download
 
                 target="_blank"
