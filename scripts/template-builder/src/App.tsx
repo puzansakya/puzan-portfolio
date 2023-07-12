@@ -1,17 +1,17 @@
 import "./App.css";
 
 // COMPONENTS
-import {ProjectsCompleted} from "./ProjectsCompleted.tsx";
-import {WhoAmI} from "./WhoAmI.tsx";
-import {Education} from "./Education.tsx";
-import {PersonalInfo} from "./PersonalInfo.tsx";
-import {Objective} from "./Objective.tsx";
-import {AdditionalSkills} from "./AdditionalSkills.tsx";
-import {WorkExperience2, WorkExperiences1} from "./WorkExperiences.tsx";
-import {Repositories} from "./Repositories.tsx";
-import {References} from "./References.tsx";
-import {ProfessionalSummary} from "./ProfessionalSummary.tsx";
-import {PageWrapper} from "./PageWrapper.tsx";
+import {ProjectsCompleted} from "./ProjectsCompleted";
+import {WhoAmI} from "./WhoAmI";
+import {Education} from "./Education";
+import {PersonalInfo} from "./PersonalInfo";
+import {Objective} from "./Objective";
+import {AdditionalSkills} from "./AdditionalSkills";
+import {WorkExperience2, WorkExperiences1} from "./WorkExperiences";
+import {Repositories} from "./Repositories";
+import {References} from "./References";
+import {ProfessionalSummary} from "./ProfessionalSummary";
+import {PageWrapper} from "./PageWrapper";
 
 export const Template = () => {
     return (
