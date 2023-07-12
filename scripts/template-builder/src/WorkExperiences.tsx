@@ -1,4 +1,4 @@
-import {PageWrapper} from "./PageWrapper.tsx";
+import {PageWrapper} from "./PageWrapper";
 
 export const WorkExperiences1 = () => {
     return <>
