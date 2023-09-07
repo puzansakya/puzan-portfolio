@@ -3,6 +3,7 @@ export const ProfessionalSummary = () => {
         <h1 className="font-medium text-lg">Professional Summary:</h1>
         <ul>
             <li>- Involved in SDLC</li>
+            <li>- Proficient on frontend technologies like React, Angular</li>
             <li>- Software Development</li>
             <li>- Java Application Development</li>
             <li>- Distributed Application Development</li>
@@ -14,7 +15,6 @@ export const ProfessionalSummary = () => {
             <li>- Able to write SQL Queries</li>
             <li>- Able to work in POSTGRES</li>
             <li>- Able to use version control tools like Git</li>
-            <li>- Able to deploy on Heroku</li>
             <li>- Strong initiation, teamwork, responsible, and profound communication skills</li>
             <li>- Has experience working with Node.js and TypeScript</li>
             <li>- Integration of real-time notification system with Firebase</li>
