@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>https://puzansakya.com.np</loc><lastmod>2024-06-16T17:47:22.987Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://puzansakya.com.np/about</loc><lastmod>2024-06-16T17:47:22.987Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://puzansakya.com.np/articles</loc><lastmod>2024-06-16T17:47:22.987Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://puzansakya.com.np/tags/Fundamentals</loc><lastmod>2024-06-16T17:47:22.987Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://puzansakya.com.np/tags/Javascript</loc><lastmod>2024-06-16T17:47:22.987Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://puzansakya.com.np/tags/React</loc><lastmod>2024-06-16T17:47:22.987Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://puzansakya.com.np/tags/Typescript</loc><lastmod>2024-06-16T17:47:22.987Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://puzansakya.com.np/tags/JS Object</loc><lastmod>2024-06-16T17:47:22.987Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://puzansakya.com.np/tags/Hooks</loc><lastmod>2024-06-16T17:47:22.987Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://puzansakya.com.np/tags/bash</loc><lastmod>2024-06-16T17:47:22.987Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://puzansakya.com.np/tags/loadbalancer</loc><lastmod>2024-06-16T17:47:22.987Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://puzansakya.com.np/tags/unix</loc><lastmod>2024-06-16T17:47:22.987Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://puzansakya.com.np/tags/Arrays</loc><lastmod>2024-06-16T17:47:22.987Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://puzansakya.com.np/tags/Reduce</loc><lastmod>2024-06-16T17:47:22.987Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://puzansakya.com.np/posts/conditionalObjectKeys</loc><lastmod>2024-06-16T17:47:22.987Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://puzansakya.com.np/posts/loggerComponent</loc><lastmod>2024-06-16T17:47:22.987Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://puzansakya.com.np/posts/nginx</loc><lastmod>2024-06-16T17:47:22.987Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://puzansakya.com.np/posts/reduce</loc><lastmod>2024-06-16T17:47:22.987Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://puzansakya.com.np/posts/swr</loc><lastmod>2024-06-16T17:47:22.987Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://puzansakya.com.np</loc><lastmod>2024-06-16T17:53:05.438Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://puzansakya.com.np/about</loc><lastmod>2024-06-16T17:53:05.438Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://puzansakya.com.np/articles</loc><lastmod>2024-06-16T17:53:05.438Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://puzansakya.com.np/tags/Fundamentals</loc><lastmod>2024-06-16T17:53:05.438Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://puzansakya.com.np/tags/Javascript</loc><lastmod>2024-06-16T17:53:05.438Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://puzansakya.com.np/tags/React</loc><lastmod>2024-06-16T17:53:05.438Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://puzansakya.com.np/tags/Typescript</loc><lastmod>2024-06-16T17:53:05.438Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://puzansakya.com.np/tags/JS Object</loc><lastmod>2024-06-16T17:53:05.438Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://puzansakya.com.np/tags/Hooks</loc><lastmod>2024-06-16T17:53:05.438Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://puzansakya.com.np/tags/bash</loc><lastmod>2024-06-16T17:53:05.438Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://puzansakya.com.np/tags/loadbalancer</loc><lastmod>2024-06-16T17:53:05.438Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://puzansakya.com.np/tags/unix</loc><lastmod>2024-06-16T17:53:05.438Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://puzansakya.com.np/tags/Arrays</loc><lastmod>2024-06-16T17:53:05.438Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://puzansakya.com.np/tags/Reduce</loc><lastmod>2024-06-16T17:53:05.438Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://puzansakya.com.np/posts/conditionalObjectKeys</loc><lastmod>2024-06-16T17:53:05.438Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://puzansakya.com.np/posts/loggerComponent</loc><lastmod>2024-06-16T17:53:05.438Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://puzansakya.com.np/posts/nginx</loc><lastmod>2024-06-16T17:53:05.438Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://puzansakya.com.np/posts/reduce</loc><lastmod>2024-06-16T17:53:05.438Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://puzansakya.com.np/posts/swr</loc><lastmod>2024-06-16T17:53:05.438Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
 </urlset>
