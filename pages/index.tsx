@@ -1,22 +1,28 @@
-import type { NextPage } from "next";
-import GlichText from "../components/GlichText";
-import styles from "../styles/Home.module.css";
+import type { InferGetStaticPropsType, NextPage } from "next";
 
 import Navbar from "../components/Navbar";
 
-import NextLink from "next/link";
 
-import { Flex, Link } from "@chakra-ui/react";
-import Head from "next/head";
 import Meta from "../components/Meta";
+import { NewLanding } from "../components/new-landing";
+import { getAllPosts } from "../@services/api.service";
+ 
+export const getStaticProps = async () => {
+  const posts = getAllPosts()
+    .slice(0, 9)
+    .map((post) => post.meta);
 
-const Home: NextPage = () => {
-  const authorName = "Puzan Sakya";
+  return { props: { posts } };
+};
+
+const Home = ({ posts }: InferGetStaticPropsType<typeof getStaticProps>) => {
 
   return (
     <>
       <Meta title="Puzan Sakya" />
-      <Flex direction="column" flex={1} h="full">
+      <Navbar isDark ={false} />
+      <NewLanding posts={posts}  />
+      {/* <Flex direction="column" flex={1} h="full">
         <Navbar />
         <div className={styles.container}>
           <div className={styles.box}>
@@ -49,7 +55,7 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-      </Flex>
+      </Flex> */}
     </>
   );
 };
