@@ -1,11 +1,9 @@
 import "highlight.js/styles/atom-one-dark.css";
 import type { GetStaticPaths, GetStaticProps } from "next";
-import { serialize } from "next-mdx-remote/serialize";
-import rehypeAutolinkHeadings from "rehype-autolink-headings";
-import rehypeHighlight from "rehype-highlight";
-import rehypeSlug from "rehype-slug";
-import { PostMeta, getAllPosts, getPostFromSlug, getSlugs } from "../../@services/api.service";
+import { PostMeta, getAllPosts } from "../../@services/api.service";
 import Meta from "../../components/Meta";
+import Navbar from "../../components/Navbar";
+import { ArticleList } from "../../components/article-list";
 
 const TagPage = ({ slug  ,posts }: {slug:string,  posts: PostMeta[] }) => {
   const title = `Tag: ${slug}`;
@@ -16,15 +14,15 @@ const TagPage = ({ slug  ,posts }: {slug:string,  posts: PostMeta[] }) => {
 
       <div className="bg-stone-800 h-full text-gray-50 min-h-screen">
 
-        {/* <Navbar />
+        <Navbar />
 
         <div id="sgl5RoIW1e2Hzs5_y9ywg" className="mx-auto space-y-4 max-w-screen-lg sm:px-5 sm:py-24 xl:px-0 px-5 py-24">
-          <Heading mb={4} fontSize={"3xl"}>
+          <h3 className="text-3xl" >
             Tag: {slug}
-          </Heading>
+          </h3>
 
-          <Articles posts={posts} />
-        </div> */}
+          <ArticleList posts={posts} />
+        </div>
       </div>
     </div>
   );
