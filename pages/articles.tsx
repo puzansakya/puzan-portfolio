@@ -69,7 +69,7 @@ export const Article = ({ post }: { post: any }) => {
       <p id="IVygcVMKS-VNC3i__VWn6" className="">{post.excerpt}</p>
       <div id="QRH47HJS4FndTE3sMCUDV" className="flex gap-1 items-center text-sm">
           {post.tags.map((tag: any) => (
-              <Link key={tag} href={`/tags/${tag}`}>
+              <Link key={tag} href={`/tags/${tag}`} passHref>
                   <a  id="-Fk5vKG4XU-3qZgfz9d73" className="after:content-['\00a0.'] last:after:content-['']">
                       {tag}
                   </a>

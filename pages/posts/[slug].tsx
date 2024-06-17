@@ -2,16 +2,16 @@ import "highlight.js/styles/atom-one-dark.css";
 import type { GetStaticPaths, GetStaticProps } from "next";
 import { MDXRemote, MDXRemoteSerializeResult } from "next-mdx-remote";
 import { serialize } from "next-mdx-remote/serialize";
-import Head from "next/head";
 import Image from "next/image";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import rehypeHighlight from "rehype-highlight";
 import rehypeSlug from "rehype-slug";
-import { getPostFromSlug, getSlugs, PostMeta } from "../../@services/api.service";
+import { PostMeta, getPostFromSlug, getSlugs } from "../../@services/api.service";
 import Meta from "../../components/Meta";
 import Navbar from "../../components/Navbar";
 import YouTube from "../../components/YouTube";
 import { Footer } from "../../fsd/shared/ui/footer";
+import { H1 } from "../../components/h1";
 
 interface MDXPost {
   source: MDXRemoteSerializeResult<Record<string, unknown>>;
@@ -25,17 +25,17 @@ export default function PostPage({ post }: { post: MDXPost }) {
 
       <Navbar />
 
-      <div id="sgl5RoIW1e2Hzs5_y9ywg" className="mx-auto max-w-screen-lg sm:px-5 sm:py-24 xl:px-0 px-5 py-24">
+      <div id="sgl5RoIW1e2Hzs5_y9ywg" className="mx-auto max-w-screen-lg flex flex-col gap-4  xl:px-0 px-5 py-24 md:py-32">
 
-        <h1 >{post.meta.title}</h1>
+        <H1 className="text-2xl font-medium">{post.meta.title}</H1>
 
-        <div className="prose">
-        <MDXRemote {...post.source} components={{ YouTube, Image }} />
+        <div className="px-article">
+          <MDXRemote {...post.source} components={{ YouTube, Image, }} />
         </div>
 
       </div>
 
-      <Footer/>
+      <Footer />
 
     </div>
   );

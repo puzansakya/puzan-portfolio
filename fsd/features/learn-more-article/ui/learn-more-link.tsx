@@ -1,13 +1,14 @@
 import Link from "next/link"
 
 export const LearnMoreLink = () => {
-    return <Link href={"/articles"}>
-        <a id="kWWV03vxh024QN57He775" className="flex gap-2  items-end py-4 rounded-md">Learn more<span
-            id="uintAot5uWUA-MmqjvUQ6">
+    return <Link href={"/articles"} passHref>
+        <a className="flex gap-2 items-center py-4 rounded-md">
+            
+            <span className="">Learn more</span>
             <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="1em"
-                height="1em"
+                width="1rem"
+                height="1rem"
                 fill="currentColor"
                 stroke="currentColor"
                 strokeWidth="0"
@@ -20,7 +21,6 @@ export const LearnMoreLink = () => {
                     clipRule="evenodd"
                 ></path>
             </svg>
-        </span>
         </a>
     </Link>
 }

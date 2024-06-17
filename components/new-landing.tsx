@@ -4,18 +4,19 @@ import Link from "next/link";
 import { LearnMoreLink } from "../fsd/features/learn-more-article";
 import { Footer } from "../fsd/shared/ui/footer";
 import { ArticleList } from "./article-list";
+import { NewGlichText } from "./new-glich-text";
 
 export const NewLanding = ({ posts }: { posts: any[] }) => {
     return <div id="C2BsOHNi-z" className="">
         <div id="xk1CeFUd9xhNe7qModYko" className="bg-stone-800 text-slate-50">
             <div id="gZThhz0PHJmhWGGhLS2sO" className="bg-amber-50 xl:p-0 p-5">
-                <div id="DOqBZXSFHJGIUwjlQk8sw" className="mx-auto py-24 max-w-screen-lg">
+                <div id="DOqBZXSFHJGIUwjlQk8sw" className="mx-auto pb-24 pt-36 max-w-screen-lg">
                     <div id="wmTBK6A4ebkPSonS1v-kf" className="flex items-center gap-5">
                         <div id="sU4Wb_PkEyyO6EkCzQ-d_" className="flex-1">
                             <div id="qGaSa8WXeAML67v1WREGc" className="flex flex-col gap-10 items-start lg:pr-48">
                                 <h1 id="zA1Ig0zyZhUnTgKPrGMoe"
                                     className="text-blue-600 md:text-5xl md:font-bold sm:font-medium text-3xl">Hello
-                                    I&#x27;m Puzan, a full stack developer based on Kathmandu, Nepal</h1>
+                                    I&#x27;m <NewGlichText label="Puzan" />, a full stack developer based on Kathmandu, Nepal</h1>
                                 <p id="VjlYRjN_W65_qhmWJ63JD" className="text-blue-600">Designing usable digital products by
                                     levaging my combined experience over the last 10 years in graphic design, branding,
                                     user-experience, user-interface and front-end development. I also like to make things
@@ -85,7 +86,7 @@ export const NewLanding = ({ posts }: { posts: any[] }) => {
                 </div>
             </div>
             <ArticleList posts={posts} learnMoreLink={<LearnMoreLink />} />
-            <Footer/>
+            <Footer />
         </div>
     </div>
 }
