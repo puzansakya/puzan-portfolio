@@ -1,7 +1,6 @@
 import Link from "next/link";
 import styles from "../styles/Articles.module.css";
 import { PostMeta } from "../@services/api.service";
-import GlichText from "./GlichText";
 
 export default function Articles({ posts }: { posts: PostMeta[] }) {
   return (
