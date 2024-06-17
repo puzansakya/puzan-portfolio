@@ -29,7 +29,9 @@ export default function PostPage({ post }: { post: MDXPost }) {
 
         <h1 >{post.meta.title}</h1>
 
+        <div className="prose">
         <MDXRemote {...post.source} components={{ YouTube, Image }} />
+        </div>
 
       </div>
 
