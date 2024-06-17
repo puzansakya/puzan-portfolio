@@ -1,0 +1,23 @@
+---
+title: Zod Models
+tags:
+  - Typescript
+  - Zod
+date: 2024-06-17
+excerpt: Types object modelling using `Zod` schema library
+---
+
+```ts
+import * as z from "zod";
+
+export const LocalBodySchema = z.object({
+    id: z.string(),
+});
+
+export const LocalBodyCollectionSchema = z.array(LocalBodySchema);
+
+export type ILocalBody = z.infer<typeof LocalBodySchema>;
+
+export type ILocalBodyCollection = z.infer<typeof LocalBodyCollectionSchema>;
+
+```
