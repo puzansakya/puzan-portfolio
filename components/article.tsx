@@ -5,7 +5,7 @@ export const Article = ({ post }: { post: any }) => {
 
         <Link href={`/posts/${post.slug}`}>
             <a id="mwrqfBOJwbVRIGJ7A4bIk"
-                className="transition-all duration-150 font-medium text-xl text-amber-400">
+                className="transition-all duration-150 font-medium text-xl text-amber-100">
                 {post.title}
             </a>
         </Link>

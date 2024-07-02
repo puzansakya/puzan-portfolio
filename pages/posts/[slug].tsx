@@ -12,6 +12,7 @@ import Navbar from "../../components/Navbar";
 import YouTube from "../../components/YouTube";
 import { Footer } from "../../fsd/shared/ui/footer";
 import { H1 } from "../../components/h1";
+import "./../../styles/Articles.module.css";
 
 interface MDXPost {
   source: MDXRemoteSerializeResult<Record<string, unknown>>;

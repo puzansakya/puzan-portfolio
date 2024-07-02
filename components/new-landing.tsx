@@ -5,6 +5,7 @@ import { LearnMoreLink } from "../fsd/features/learn-more-article";
 import { Footer } from "../fsd/shared/ui/footer";
 import { ArticleList } from "./article-list";
 import { NewGlichText } from "./new-glich-text";
+import { Experience } from "./experience";
 
 export const NewLanding = ({ posts }: { posts: any[] }) => {
     return <div id="C2BsOHNi-z" className="">
@@ -35,7 +36,8 @@ export const NewLanding = ({ posts }: { posts: any[] }) => {
                     </div>
                 </div>
             </div>
-            <div id="sgl5RoIW1e2Hzs5_y9ywg" className="mx-auto max-w-screen-lg sm:px-5 sm:py-24 xl:px-0 px-5 py-24">
+            <Experience />
+            {/* <div id="sgl5RoIW1e2Hzs5_y9ywg" className="mx-auto max-w-screen-lg sm:px-5 sm:py-24 xl:px-0 px-5 py-24">
                 <h1 id="b_BzKvGaBH29CxOBZyC2D" className="font-bold text-4xl">Case Studies</h1>
                 <div id="N9OA8JPop77RNSw-JubzX" className="flex mt-14 md:flex-row md:gap-10 flex-col gap-5">
                     <p id="U7EPRcT3asIdP520hCQzP" className="sm:w-full">Короткое описание. Используйте 1-2 предложения в 2-4
@@ -84,7 +86,7 @@ export const NewLanding = ({ posts }: { posts: any[] }) => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <ArticleList posts={posts} learnMoreLink={<LearnMoreLink />} />
             <Footer />
         </div>

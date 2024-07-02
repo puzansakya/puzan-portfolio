@@ -45,7 +45,7 @@ export const NewAbout = () => {
                             </a>
                         </Link>
 
-                        <Link href={"https://github.com/sanskarsakya"} target="_blank" >
+                        <Link href={"https://github.com/puzansakya"} target="_blank" >
                         <a 
                             className="font-medium rounded-full hover:transition-all h-8 w-8 flex justify-center items-center transition-all duration-150 hover:bg-blue-600 hover:text-gray-50"><span
                                 id="7tY5oRyIAzvpIBcnTL8Kk">

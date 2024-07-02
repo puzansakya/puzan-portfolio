@@ -116,3 +116,31 @@
 /* END GLITCH EFFECT */
 
 
+.px-article > h1 {
+  @apply mt-8 text-amber-400 font-medium
+}
+.px-article > h2 {
+  @apply text-lg mt-8 text-amber-400 font-medium
+}
+.px-article > h3 {
+  @apply mt-8 text-amber-400 font-medium
+}
+.px-article > h4 {
+  @apply mt-8 text-amber-400 font-medium
+}
+.px-article > h5 {
+  @apply mt-8 text-amber-400 font-medium
+}
+.px-article > h6 {
+  @apply mt-8 text-amber-400 font-medium
+}
+
+.px-article > p {
+  @apply mt-4
+}
+.px-article > pre {
+  @apply mt-4
+}
+.px-article > ul {
+  @apply mt-4
+}
