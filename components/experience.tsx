@@ -39,7 +39,7 @@ export const Experience = () => {
             },
         ]
 
-    return <div id="sgl5RoIW1e2Hzs5_y9ywg" className="mx-auto max-w-screen-lg sm:px-5 sm:py-24 xl:px-0 px-5 py-24">
+    return <div id="sgl5RoIW1e2Hzs5_y9ywg" className="mx-auto max-w-screen-lg px-5 sm:px-5 xl:px-0 sm:py-24 py-24">
         <h1 id="b_BzKvGaBH29CxOBZyC2D" className="font-bold text-4xl">Experience</h1>
         <div id="N9OA8JPop77RNSw-JubzX" className="flex mt-14 md:flex-row md:gap-10 flex-col gap-5">
             <p id="U7EPRcT3asIdP520hCQzP" className="sm:w-full">Career Journey till date</p>

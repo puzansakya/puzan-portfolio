@@ -4,27 +4,26 @@ import { PostMeta, getAllPosts } from "../../@services/api.service";
 import Meta from "../../components/Meta";
 import Navbar from "../../components/Navbar";
 import { ArticleList } from "../../components/article-list";
+import { Footer } from "../../fsd/shared/ui/footer";
+import { SectionWrapper } from "../../components/page-wrapper";
 
-const TagPage = ({ slug  ,posts }: {slug:string,  posts: PostMeta[] }) => {
+const TagPage = ({ slug, posts }: { slug: string, posts: PostMeta[] }) => {
   const title = `Tag: ${slug}`;
   return (
-    <div className="relative bg-stone-800 h-full text-gray-50 min-h-screen">
+    <div className=" bg-stone-800 text-stone-50">
 
       <Meta title={title} />
+      <Navbar />
 
-      <div className="bg-stone-800 h-full text-gray-50 min-h-screen">
+      <SectionWrapper className="flex flex-col gap-4">
+        <h3 className="text-3xl" >
+          Tag: {slug}
+        </h3>
+        <ArticleList posts={posts} />
+      </SectionWrapper>
 
-        <Navbar />
-
-        <div id="sgl5RoIW1e2Hzs5_y9ywg" className="mx-auto space-y-4 max-w-screen-lg sm:px-5 sm:py-24 xl:px-0 px-5 py-24">
-          <h3 className="text-3xl" >
-            Tag: {slug}
-          </h3>
-
-          <ArticleList posts={posts} />
-        </div>
-      </div>
-    </div>
+      <Footer />
+    </div >
   );
 }
 
