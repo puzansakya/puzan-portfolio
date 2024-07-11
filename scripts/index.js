@@ -21,7 +21,11 @@ async function generatePDF() {
 
     await browser.close();
 
-    fs.writeFile(path.join(__dirname, "../public/puzan_sakya_resume.pdf"), pdfBuffer, (err) => {
+    const file_path = path.join(__dirname, "../public/puzan_sakya_resume.pdf")
+    
+    fs.unlinkSync(file_path);
+
+    fs.writeFile(file_path, pdfBuffer, (err) => {
         if (err) {
             console.error('Error writing PDF to file:', err);
         } else {
