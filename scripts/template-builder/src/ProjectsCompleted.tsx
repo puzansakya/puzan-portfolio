@@ -10,7 +10,7 @@ export const ProjectsCompleted = () => {
             <li>Hero Paw pet project</li>
             <li>
                 Medium Clone (<a
-                href="https://github.com/sanskarsakya/bp_ci">https://github.com/sanskarsakya/bp_ci</a>)
+                href="https://github.com/sanskarsakya/bp_ci">https://github.com/puzansakya/bp_ci</a>)
             </li>
         </ul>
     </div>
