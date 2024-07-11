@@ -22,7 +22,7 @@ export const NewLanding = ({ posts }: { posts: any[] }) => {
                                 user-experience, user-interface and front-end development. I also like to make things
                                 out of wood and ride bikes. </p>
                             <div className="flex gap-7">
-                                <Link href="puzan_shakya_resume_1.pdf" target="_blank">
+                                <Link href="puzan_sakya_resume.pdf" target="_blank">
                                     <a
                                         id="lx4uB0AxYAJoN3rQ9ITTt"
                                         className="text-slate-50 bg-blue-600 py-4 px-6 hover:bg-blue-500">Download

@@ -11,7 +11,7 @@ export const NewAbout = () => {
                 <div  className="flex items-center flex-col justify-center gap-5">
 
                     <Link
-                        href="puzan_shakya_resume_2.pdf"
+                        href="puzan_sakya_resume.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
