@@ -1,4 +1,4 @@
-export const PersonalInfo = () => <div className="py-5">
+export const PersonalInfo = () => <div className="py-4">
     <h1 className="font-medium text-lg">Personal Information</h1>
     <div className="flex">
         <div className="w-1/2">

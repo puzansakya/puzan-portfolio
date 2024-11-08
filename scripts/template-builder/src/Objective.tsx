@@ -1,5 +1,5 @@
 export const Objective = (): any => {
-    return <div className="py-5">
+    return <div className="py-4">
         <h1 className="font-medium text-lg">Objective </h1>
         <p>A motivated developer, currently working as a team lead, dedicated continuously on developing, designing,
             integrating, testing, managing,

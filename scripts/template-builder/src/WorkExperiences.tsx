@@ -1,33 +1,50 @@
-import {PageWrapper} from "./PageWrapper";
+import { ListItem } from "./components/list-item";
+import { PageWrapper } from "./PageWrapper";
 
 export const WorkExperiences1 = () => {
-    return <>
-        <PageWrapper>
-            <div className="py-5 space-y-5">
-                <h1 className="font-medium text-lg">Work Experiences:</h1>
-                <div>
-                    <p className="underline">Rigo Technologies | Senior software Engineer | Tech Lead - Frontend </p>
-                    <p className="italic">Date: 2021 June&ndash; present</p>
-                    <p className="italic font-medium">Human resource (HR)</p>
-                    <ul>
-                        <li>- Maintain design systems.</li>
-                        <li>- Write and maintain cypress test</li>
-                        <li>- Converted monolithic react app to mono repo architecture using NX</li>
-                        <li>- Maintain internal tooling scripts</li>
-                        <li>- Oversee and optimize overall application</li>
-                    </ul>
+    return <PageWrapper>
+        <div className="py-4">
+            <h1 className="font-medium text-lg">Work Experiences</h1>
+            <div className="flex flex-col gap-3">
+                <div className="flex flex-col gap-3">
+                    <div>
+                        <p className="underline">Rigo Technologies | Senior software Engineer | Tech Lead - Frontend </p>
+                        <p className="italic">Date: 2021 June&ndash; present</p>
+                    </div>
 
-                    <p className="italic font-medium">Enterprise Resource Planning(ERP)</p>
-                    <ul>
-                        <li>- Maintain design systems.</li>
-                        <li>- Write and maintain cypress test</li>
-                        <li>- Converted monolithic react app to mono repo architecture (Yarn workspace/lerna)</li>
-                        <li>- Maintain internal tooling scripts</li>
-                        <li>- Oversee and optimize overall application</li>
-                        <li>- Create and maintain form heavy components</li>
-                        <li>- Maintain table and data-grids</li>
-                    </ul>
+                    <div className="flex flex-col gap-3">
+                        <div>
+                            <p className="italic text-sm font-medium">Human resource (HR)</p>
+                            <ul>
+                                {[
+                                    "Maintain design systems.",
+                                    "Write and maintain cypress test.",
+                                    "Converted monolithic react app to mono repo architecture using NX",
+                                    "Maintain internal tooling scripts",
+                                    "Oversee and optimize overall application",
+                                ].map((content, index) => {
+                                    return <ListItem key={`work-experience-1-hr-${index}`} content={content} />;
+                                })}
+                            </ul>
+                        </div>
 
+                        <div>
+                            <p className="italic text-sm font-medium">Enterprise Resource Planning(ERP)</p>
+                            <ul>
+                                {[
+                                    "Maintain design systems.",
+                                    "Write and maintain cypress test.",
+                                    "Converted monolithic react app to mono repo architecture (Yarn workspace/lerna), now turborepo",
+                                    "Maintain internal tooling scripts",
+                                    "Oversee and optimize overall application",
+                                    "Create and maintain form heavy components",
+                                    "Maintain table and data-grids",
+                                ].map((content, index) => {
+                                    return <ListItem key={`work-experience-1-erp-${index}`} content={content} />;
+                                })}
+                            </ul>
+                        </div>
+                    </div>
                 </div>
                 <div>
                     <p className="underline">Smart Data Solution | Senior Full-stack Engineer</p>
@@ -54,26 +71,27 @@ export const WorkExperiences1 = () => {
                         Completed projects of react and java stack as well.</p>
                 </div>
             </div>
-        </PageWrapper>
-
-    </>
-
+        </div>
+    </PageWrapper>
 }
 
 export const WorkExperience2 = () => {
-    return <div className="py-5 space-y-5">
+    return <div className="py-4">
+        <h1 className="font-medium text-lg">Work Experience </h1>
+        <div className="flex flex-col gap-3">
 
-        <div>
-            <p className="underline">Dnarzu Production | Backend developer</p>
-            <p className="italic">Date: 2017 May &ndash; present</p>
-            <p className="italic">Description: Worked as backend developer to developer API using
-                node and typescript for the WAQT Nepal android application</p>
-        </div>
-        <div>
-            <p className="underline">Leapfrog academy | Trainee</p>
-            <p className="italic">Date: 2017 Jan &ndash; 2018 Jan</p>
-            <p className="italic">Description: I worked as a trainee in Leapfrog academy on spring,
-                hibernate, java core and Java stacks.</p>
+            <div>
+                <p className="underline">Dnarzu Production | Backend developer</p>
+                <p className="italic">Date: 2017 May &ndash; present</p>
+                <p className="italic">Description: Worked as backend developer to developer API using
+                    node and typescript for the WAQT Nepal android application</p>
+            </div>
+            <div>
+                <p className="underline">Leapfrog academy | Trainee</p>
+                <p className="italic">Date: 2017 Jan &ndash; 2018 Jan</p>
+                <p className="italic">Description: I worked as a trainee in Leapfrog academy on spring,
+                    hibernate, java core and Java stacks.</p>
+            </div>
         </div>
     </div>
 }
