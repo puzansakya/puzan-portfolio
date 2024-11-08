@@ -4,7 +4,7 @@ export const WhoAmI = () => {
         <p>Full-stack Software Engineer&nbsp;</p>
         <div className="py-5">
             <p>Maitidevi, Kathmandu | +977-9849799166 | puzansakya@gmail.com | https://puzansakya.com.np</p>
-            <p>linkedIn: https://www.linkedin.com/in/pujan-shakya-1213032ba</p>
+            <a>linkedIn: https://www.linkedin.com/in/pujan-shakya-1213032ba</a>
         </div>
     </>
 

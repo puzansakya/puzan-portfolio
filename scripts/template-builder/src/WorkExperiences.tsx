@@ -6,9 +6,9 @@ export const WorkExperiences1 = () => {
             <div className="py-5 space-y-5">
                 <h1 className="font-medium text-lg">Work Experiences:</h1>
                 <div>
-                    <p className="underline">Rigo Technologies | Senior software Engineer</p>
+                    <p className="underline">Rigo Technologies | Senior software Engineer | Tech Lead - Frontend </p>
                     <p className="italic">Date: 2021 June&ndash; present</p>
-                    <p className="italic font-medium">Human resource (HR) | Frontend Lead</p>
+                    <p className="italic font-medium">Human resource (HR)</p>
                     <ul>
                         <li>- Maintain design systems.</li>
                         <li>- Write and maintain cypress test</li>
@@ -17,7 +17,7 @@ export const WorkExperiences1 = () => {
                         <li>- Oversee and optimize overall application</li>
                     </ul>
 
-                    <p className="italic font-medium">Enterprise Resource Planning(ERP) | Frontend Lead</p>
+                    <p className="italic font-medium">Enterprise Resource Planning(ERP)</p>
                     <ul>
                         <li>- Maintain design systems.</li>
                         <li>- Write and maintain cypress test</li>
