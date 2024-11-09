@@ -19,9 +19,9 @@ export const WorkExperiences1 = () => {
                                 {[
                                     "Maintain design systems.",
                                     "Write and maintain cypress test.",
-                                    "Converted monolithic react app to mono repo architecture using NX",
-                                    "Maintain internal tooling scripts",
-                                    "Oversee and optimize overall application",
+                                    "Converted monolithic react app to mono repo architecture using NX.",
+                                    "Maintain internal tooling scripts.",
+                                    "Oversee and optimize overall application.",
                                 ].map((content, index) => {
                                     return <ListItem key={`work-experience-1-hr-${index}`} content={content} />;
                                 })}
@@ -34,11 +34,11 @@ export const WorkExperiences1 = () => {
                                 {[
                                     "Maintain design systems.",
                                     "Write and maintain cypress test.",
-                                    "Converted monolithic react app to mono repo architecture (Yarn workspace/lerna), now turborepo",
-                                    "Maintain internal tooling scripts",
-                                    "Oversee and optimize overall application",
-                                    "Create and maintain form heavy components",
-                                    "Maintain table and data-grids",
+                                    "Converted monolithic react app to mono repo architecture (Yarn workspace/lerna), now turborepo.",
+                                    "Maintain internal tooling scripts.",
+                                    "Oversee and optimize overall application.",
+                                    "Create and maintain form heavy components.",
+                                    "Maintain table and data-grids.",
                                 ].map((content, index) => {
                                     return <ListItem key={`work-experience-1-erp-${index}`} content={content} />;
                                 })}
@@ -84,7 +84,7 @@ export const WorkExperience2 = () => {
                 <p className="underline">Dnarzu Production | Backend developer</p>
                 <p className="italic">Date: 2017 May &ndash; present</p>
                 <p className="italic">Description: Worked as backend developer to developer API using
-                    node and typescript for the WAQT Nepal android application</p>
+                    node and typescript for the WAQT Nepal android application.</p>
             </div>
             <div>
                 <p className="underline">Leapfrog academy | Trainee</p>
